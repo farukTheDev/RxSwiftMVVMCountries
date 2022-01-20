@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,17 @@
 		0051F9E627946DCC00FAACF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0051F9E427946DCC00FAACF7 /* Main.storyboard */; };
 		0051F9E827946DCF00FAACF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0051F9E727946DCF00FAACF7 /* Assets.xcassets */; };
 		0051F9EB27946DCF00FAACF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0051F9E927946DCF00FAACF7 /* LaunchScreen.storyboard */; };
+		00EEF1142794896C0067E20E /* Continent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EEF1132794896C0067E20E /* Continent.swift */; };
+		00EEF11627948A0D0067E20E /* ContinentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EEF11527948A0D0067E20E /* ContinentsViewController.swift */; };
+		00EEF11827948B550067E20E /* CountriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EEF11727948B550067E20E /* CountriesViewModel.swift */; };
+		00EEF11A27948B7B0067E20E /* ContinentsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EEF11927948B7B0067E20E /* ContinentsViewModel.swift */; };
+		00EEF11E279497540067E20E /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EEF11D279497540067E20E /* Country.swift */; };
+		00EEF121279498CA0067E20E /* NetworkUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EEF120279498CA0067E20E /* NetworkUtils.swift */; };
+		00EEF123279498E60067E20E /* Repositories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EEF122279498E60067E20E /* Repositories.swift */; };
+		00EEF12927949F2A0067E20E /* CountryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EEF12727949F2A0067E20E /* CountryCell.swift */; };
+		00EEF12A27949F2A0067E20E /* CountryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00EEF12827949F2A0067E20E /* CountryCell.xib */; };
+		00EEF1302794AC550067E20E /* CountriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EEF12E2794AC550067E20E /* CountriesViewController.swift */; };
+		00EEF1312794AC550067E20E /* CountriesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00EEF12F2794AC550067E20E /* CountriesViewController.xib */; };
 		1BC8005547CC0244DE44D032 /* Pods_RxSwiftMVVMCountries.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F112EE6F5DFC8EFBF2ACF4E /* Pods_RxSwiftMVVMCountries.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +36,17 @@
 		0051F9E727946DCF00FAACF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0051F9EA27946DCF00FAACF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0051F9EC27946DCF00FAACF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00EEF1132794896C0067E20E /* Continent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Continent.swift; sourceTree = "<group>"; };
+		00EEF11527948A0D0067E20E /* ContinentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinentsViewController.swift; sourceTree = "<group>"; };
+		00EEF11727948B550067E20E /* CountriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesViewModel.swift; sourceTree = "<group>"; };
+		00EEF11927948B7B0067E20E /* ContinentsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinentsViewModel.swift; sourceTree = "<group>"; };
+		00EEF11D279497540067E20E /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		00EEF120279498CA0067E20E /* NetworkUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkUtils.swift; sourceTree = "<group>"; };
+		00EEF122279498E60067E20E /* Repositories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repositories.swift; sourceTree = "<group>"; };
+		00EEF12727949F2A0067E20E /* CountryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCell.swift; sourceTree = "<group>"; };
+		00EEF12827949F2A0067E20E /* CountryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountryCell.xib; sourceTree = "<group>"; };
+		00EEF12E2794AC550067E20E /* CountriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesViewController.swift; sourceTree = "<group>"; };
+		00EEF12F2794AC550067E20E /* CountriesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountriesViewController.xib; sourceTree = "<group>"; };
 		9F112EE6F5DFC8EFBF2ACF4E /* Pods_RxSwiftMVVMCountries.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftMVVMCountries.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2C4FAD171DDE6C186ED8C38 /* Pods-RxSwiftMVVMCountries.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftMVVMCountries.release.xcconfig"; path = "Target Support Files/Pods-RxSwiftMVVMCountries/Pods-RxSwiftMVVMCountries.release.xcconfig"; sourceTree = "<group>"; };
 		DEDA350CA893BF80D63BEFCC /* Pods-RxSwiftMVVMCountries.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftMVVMCountries.debug.xcconfig"; path = "Target Support Files/Pods-RxSwiftMVVMCountries/Pods-RxSwiftMVVMCountries.debug.xcconfig"; sourceTree = "<group>"; };
@@ -63,6 +85,10 @@
 		0051F9DD27946DCC00FAACF7 /* RxSwiftMVVMCountries */ = {
 			isa = PBXGroup;
 			children = (
+				00EEF11F279498B40067E20E /* Network */,
+				00EEF1102794871E0067E20E /* ViewModel */,
+				00EEF10F279487180067E20E /* View */,
+				00EEF10E279487110067E20E /* Model */,
 				0051F9DE27946DCC00FAACF7 /* AppDelegate.swift */,
 				0051F9E027946DCC00FAACF7 /* SceneDelegate.swift */,
 				0051F9E227946DCC00FAACF7 /* ViewController.swift */,
@@ -72,6 +98,69 @@
 				0051F9EC27946DCF00FAACF7 /* Info.plist */,
 			);
 			path = RxSwiftMVVMCountries;
+			sourceTree = "<group>";
+		};
+		00EEF10E279487110067E20E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				00EEF1132794896C0067E20E /* Continent.swift */,
+				00EEF11D279497540067E20E /* Country.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		00EEF10F279487180067E20E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				00EEF112279487300067E20E /* CollectionViewCells */,
+				00EEF111279487250067E20E /* ViewControllers */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		00EEF1102794871E0067E20E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				00EEF11727948B550067E20E /* CountriesViewModel.swift */,
+				00EEF11927948B7B0067E20E /* ContinentsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		00EEF111279487250067E20E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				00EEF12D2794AC2F0067E20E /* Countries */,
+				00EEF11527948A0D0067E20E /* ContinentsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		00EEF112279487300067E20E /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				00EEF12727949F2A0067E20E /* CountryCell.swift */,
+				00EEF12827949F2A0067E20E /* CountryCell.xib */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		00EEF11F279498B40067E20E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				00EEF120279498CA0067E20E /* NetworkUtils.swift */,
+				00EEF122279498E60067E20E /* Repositories.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		00EEF12D2794AC2F0067E20E /* Countries */ = {
+			isa = PBXGroup;
+			children = (
+				00EEF12E2794AC550067E20E /* CountriesViewController.swift */,
+				00EEF12F2794AC550067E20E /* CountriesViewController.xib */,
+			);
+			path = Countries;
 			sourceTree = "<group>";
 		};
 		3C7DCD3947250241E2CC5E05 /* Frameworks */ = {
@@ -88,7 +177,6 @@
 				DEDA350CA893BF80D63BEFCC /* Pods-RxSwiftMVVMCountries.debug.xcconfig */,
 				D2C4FAD171DDE6C186ED8C38 /* Pods-RxSwiftMVVMCountries.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -151,8 +239,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00EEF12A27949F2A0067E20E /* CountryCell.xib in Resources */,
 				0051F9EB27946DCF00FAACF7 /* LaunchScreen.storyboard in Resources */,
 				0051F9E827946DCF00FAACF7 /* Assets.xcassets in Resources */,
+				00EEF1312794AC550067E20E /* CountriesViewController.xib in Resources */,
 				0051F9E627946DCC00FAACF7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,9 +296,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00EEF11627948A0D0067E20E /* ContinentsViewController.swift in Sources */,
+				00EEF11E279497540067E20E /* Country.swift in Sources */,
+				00EEF121279498CA0067E20E /* NetworkUtils.swift in Sources */,
+				00EEF1302794AC550067E20E /* CountriesViewController.swift in Sources */,
 				0051F9E327946DCC00FAACF7 /* ViewController.swift in Sources */,
 				0051F9DF27946DCC00FAACF7 /* AppDelegate.swift in Sources */,
+				00EEF11827948B550067E20E /* CountriesViewModel.swift in Sources */,
+				00EEF1142794896C0067E20E /* Continent.swift in Sources */,
+				00EEF12927949F2A0067E20E /* CountryCell.swift in Sources */,
+				00EEF123279498E60067E20E /* Repositories.swift in Sources */,
 				0051F9E127946DCC00FAACF7 /* SceneDelegate.swift in Sources */,
+				00EEF11A27948B7B0067E20E /* ContinentsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
